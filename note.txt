@@ -1,0 +1,15 @@
+/* Assignment Number :Vue assignment number 3
+Assignment Name: Vue assignment number 3 
+Author: Mohammad Abdul Quaiyum
+Version:1.0.0
+Descrption: Here we cut every part HTML and put everypart in components folder and link all the css and js file in index.html  */
+Submit date:16/07/2023
+
+User Interface (Frontend)
+1.HTML
+2.Vue
+
+
+Hosting Platform :
+1.GitHub:
+2.Netlify:
