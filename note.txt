@@ -12,4 +12,4 @@ User Interface (Frontend)
 
 Hosting Platform :
 1.GitHub:https://github.com/blackAdamCambodia/launch
-2.Netlify:
+2.Netlify:https://mohammad-abdul-quaiyum-launch-vue.netlify.app/
