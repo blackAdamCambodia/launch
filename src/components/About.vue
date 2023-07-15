@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
-                    <img src="images/about.svg" alt="Image" class="img-fluid">
+                    <img src="../../public/images/about.svg" alt="Image" class="img-fluid">
                 </div>
                 <div class="col-lg-4">
                     <div class="mb-4" data-aos="fade-up" data-aos-delay="0">

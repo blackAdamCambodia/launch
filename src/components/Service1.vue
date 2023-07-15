@@ -21,7 +21,7 @@
                                 </blockquote>
                                 <div class="author d-flex">
                                     <div class="pic mr-3">
-                                        <img src="images/person_1.jpg" alt="Image" class="img-fluid">
+                                        <img src="../../public/images/person_1.jpg" alt="Image" class="img-fluid">
                                     </div>
                                     <div>
                                         <strong class="d-block">James Anderson</strong><span class="d-block">Facebook, Product Lead</span>
@@ -38,7 +38,7 @@
                                 <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
                             </svg>
                         </span>
-                        <img src="images/dashboard.jpg" alt="Image" class="img-fluid img-shadow">
+                        <img src="../../public/images/dashboard.jpg" alt="Image" class="img-fluid img-shadow">
                     </a>
                 </div>
             </div>

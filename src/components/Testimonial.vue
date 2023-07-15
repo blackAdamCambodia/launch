@@ -37,7 +37,7 @@
                                     </blockquote>
                                     <div class="author d-flex">
                                         <div class="pic mr-3">
-                                            <img src="images/person_1.jpg" alt="Image" class="img-fluid">
+                                            <img src="../../public/images/person_1.jpg" alt="Image" class="img-fluid">
                                         </div>
                                         <div>
                                             <strong class="d-block">James Anderson</strong><span class="d-block">Facebook, Product Lead</span>
@@ -54,7 +54,7 @@
                                     </blockquote>
                                     <div class="author d-flex">
                                         <div class="pic mr-3">
-                                            <img src="images/person_2.jpg" alt="Image" class="img-fluid">
+                                            <img src="../../public/images/person_2.jpg" alt="Image" class="img-fluid">
                                         </div>
                                         <div>
                                             <strong class="d-block">James Anderson</strong><span class="d-block">Facebook, Product Lead</span>
@@ -71,7 +71,7 @@
                                     </blockquote>
                                     <div class="author d-flex">
                                         <div class="pic mr-3">
-                                            <img src="images/person_3.jpg" alt="Image" class="img-fluid">
+                                            <img src="../../public/images/person_3.jpg" alt="Image" class="img-fluid">
                                         </div>
                                         <div>
                                             <strong class="d-block">James Anderson</strong><span class="d-block">Facebook, Product Lead</span>

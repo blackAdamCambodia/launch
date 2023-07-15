@@ -13,7 +13,7 @@
                     <div class="news-item">
                         <div class="vcard d-flex align-items-center mb-4">
                             <div class="img-wrap">
-                                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
+                                <img src="../../public/images/person_1.jpg" alt="Image" class="img-fluid">
                             </div>
                             <div class="post-meta">
                                 <strong>Posted by James</strong>
@@ -38,7 +38,7 @@
                     <div class="news-item">
                         <div class="vcard d-flex align-items-center mb-4">
                             <div class="img-wrap">
-                                <img src="images/person_2.jpg" alt="Image" class="img-fluid">
+                                <img src="../../public/images/person_2.jpg" alt="Image" class="img-fluid">
                             </div>
                             <div class="post-meta">
                                 <strong>Posted by Khan</strong>
@@ -63,7 +63,7 @@
                     <div class="news-item">
                         <div class="vcard d-flex align-items-center mb-4">
                             <div class="img-wrap">
-                                <img src="images/person_3.jpg" alt="Image" class="img-fluid">
+                                <img src="../../public/images/person_3.jpg" alt="Image" class="img-fluid">
                             </div>
                             <div class="post-meta">
                                 <strong>Posted by Rob</strong>

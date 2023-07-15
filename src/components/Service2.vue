@@ -57,19 +57,19 @@
                         <div class="owl-single no-dots owl-carousel">
                             <div class="item">
                                 <span class="number">1/4</span>
-                                <img src="images/dashboard.jpg" alt="Image" class="img-fluid">
+                                <img src="../../public/images/dashboard.jpg" alt="Image" class="img-fluid">
                             </div>
                             <div class="item">
                                 <span class="number">2/4</span>
-                                <img src="images/dashboard.jpg" alt="Image" class="img-fluid">
+                                <img src="../../public/images/dashboard.jpg" alt="Image" class="img-fluid">
                             </div>
                             <div class="item">
                                 <span class="number">3/4</span>
-                                <img src="images/dashboard.jpg" alt="Image" class="img-fluid">
+                                <img src="../../public/images/dashboard.jpg" alt="Image" class="img-fluid">
                             </div>
                             <div class="item">
                                 <span class="number">4/4</span>
-                                <img src="images/dashboard.jpg" alt="Image" class="img-fluid">
+                                <img src="../../public/images/dashboard.jpg" alt="Image" class="img-fluid">
                             </div>
                         </div>
                     </div>
