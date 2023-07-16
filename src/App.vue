@@ -1,16 +1,16 @@
 <script setup>
-import Header from './components/Header.vue';
-import Hero from './components/Hero.vue';
-import Service1 from './components/Service1.vue';
-import Service2 from './components/Service2.vue';
-import Feature from './components/Feature.vue';
-import Pricing from './components/Pricing.vue';
-import Advantage from './components/Advantage.vue';
-import Testimonial from './components/Testimonial.vue';
-import About from './components/About.vue';
-import Blog from './components/Blog.vue';
-import Contact from './components/Contact.vue';
-import Footer from './components/Footer.vue';
+import Header from './components/HeaderSection.vue';
+import Hero from './components/HeroSection.vue';
+import Service1 from './components/ServiceSectionOne.vue';
+import Service2 from './components/ServiceSectionTwo.vue';
+import Feature from './components/FeatureSection.vue';
+import Pricing from './components/PricingSection.vue';
+import Advantage from './components/AdvantageSection.vue';
+import Testimonial from './components/TestimonialSection.vue';
+import About from './components/AboutSection.vue';
+import Blog from './components/BlogSection.vue';
+import Contact from './components/ContactSection.vue';
+import Footer from './components/FooterSection.vue';
 </script>
 
 <template>
