@@ -1,6 +1,7 @@
 <script setup>
+import marketLaunchImage from "../../public/images/market-launch-pana.svg"
 const heroImage = {
-  src:"../../public/images/market-launch-pana.svg",
+  src:marketLaunchImage,
   alt:"Market Launch"
 };
 const headingText = "Promote Your Products by Colorlib";
