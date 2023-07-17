@@ -1,4 +1,36 @@
-<script setup></script>
+<script setup>
+const footerTitle= "About Launch";
+const footerDescription = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.";
+ const contactInfo = {
+        email: "blackadam2000kh@gmail.com",
+        phone1: "+855968283659",
+        phone2: "+855968283659",
+        address: "Phnom phen , Cambodia",
+       
+    };
+    const socialItems = [
+    {
+        link: 'https://www.instagram.com/',
+        icon: 'icon-instagram'
+    },
+    {
+        link: 'https://www.twitter.com/',
+        icon: 'icon-twitter'
+    },
+    {
+        link: 'https://www.facebook.com/',
+        icon: 'icon-facebook'
+    },
+    {
+        link: 'https://www.linkedin.com/',
+        icon: 'icon-linkedin'
+    },
+    {
+        link: 'https://www.pinterest.com/',
+        icon: 'icon-pinterest'
+    }
+]
+</script>
 <template>
     <div class="site-footer">
         <div class="footer-dots"></div>
@@ -6,18 +38,14 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="widget">
-                        <h3>About Launch<span class="text-primary">.</span> </h3>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <h3>{{ footerTitle }}<span class="text-primary">.</span> </h3>
+                        <p>{{ footerDescription }}</p>
                     </div>
                     <div class="widget">
                         <h3>Connect</h3>
                         <ul class="list-unstyled social">
-                            <li><a href="#"><span class="icon-instagram"></span></a></li>
-                            <li><a href="#"><span class="icon-twitter"></span></a></li>
-                            <li><a href="#"><span class="icon-facebook"></span></a></li>
-                            <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                            <li><a href="#"><span class="icon-pinterest"></span></a></li>
-                            <li><a href="#"><span class="icon-dribbble"></span></a></li>
+                            <li v-for="(socialItem , index ) in socialItems" :key="index"><a :href="socialItem.link"><span :class="socialItem.icon"></span></a></li>
+                           
                         </ul>
                     </div>
                 </div>
@@ -47,11 +75,11 @@
                 <div class="col-lg-3">
                     <div class="widget">
                         <h3>Contact</h3>
-                        <address>43 Raymouth Rd. Baltemoer, London 3910</address>
+                        <address>{{contactInfo.address}}</address>
                         <ul class="list-unstyled links mb-4">
-                            <li><a href="">+1(123)-456-7890</a></li>
-                            <li><a href="">+1(123)-456-7890</a></li>
-                            <li><a href=""><span class="__cf_email__" data-cfemail="94fdfaf2fbd4f9edf0fbf9f5fdfabaf7fbf9">[email&#160;protected]</span></a></li>
+                            <li><a href="">{{ contactInfo.phone1 }}</a></li>
+                            <li><a href="">{{ contactInfo.phone2 }}</a></li>
+                            <li><a href=""><span class="__cf_email__" data-cfemail="94fdfaf2fbd4f9edf0fbf9f5fdfabaf7fbf9">{{ contactInfo.email }}</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -59,7 +87,7 @@
             <div class="row mt-5">
                 <div class="col-12 text-center">
                     <p>
-                        Copyright &copy; 2023 All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
+                        Copyright &copy; 2023 All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://www.blackadam.com/" target="_blank">Kazi IT Home</a>
                     </p>
                 </div>
             </div>

@@ -1,11 +1,22 @@
-<script setup></script>
+<script setup>
+    const headingTitle= "Get In Touch";
+    const description="Far from the countries Vokalia and Consonantia";
+    const contactInfoHeading="Contact Info";
+    const contactInfo = {
+        email: "blackadam2000kh@gmail.com",
+        phone1: "+855968283659",
+        phone2: "+855968283659",
+        address: "Phnom phen , Cambodia",
+        website: "http://blackadam.com"
+    };
+</script>
 <template>
     <div class="untree_co-section" id="contact-section">
         <div class="container">
             <div class="row mb-4" data-aos="fade-up" data-aos-delay="0">
                 <div class="col-12 text-center">
-                    <h2 class="heading">Get In Touch</h2>
-                    <p>Far from the countries Vokalia and Consonantia</p>
+                    <h2 class="heading">{{ headingTitle }}</h2>
+                    <p>{{ description }}</p>
                 </div>
             </div>
             <div class="row">
@@ -37,13 +48,13 @@
                     </form>
                 </div>
                 <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
-                    <h3 class="h5 mb-4">Contact Info</h3>
-                    <address class="text-black d-flex"><span class="mt-1 icon-room mr-2"></span><span>43 Raymouth Rd. Baltemoer, London 3910</span></address>
+                    <h3 class="h5 mb-4">{{ contactInfoHeading }}</h3>
+                    <address class="text-black d-flex"><span class="mt-1 icon-room mr-2"></span><span>{{contactInfo.address}}</span></address>
                     <ul class="list-unstyled ul-links mb-4">
-                        <li><a href="tel://11234567890" class="d-flex"><span class="mt-1 icon-phone mr-2"></span><span>+1(123)-456-7890</span></a></li>
-                        <li><a href="tel://11234567890" class="d-flex"><span class="mt-1 icon-phone mr-2"></span><span>+1(123)-456-7890</span></a></li>
-                        <li><a href="https://preview.colorlib.com/cdn-cgi/l/email-protection#e0898e868fa08d99848f8d81898ece838f8d" class="d-flex"><span class="mt-1 icon-envelope mr-2"></span><span><span class="__cf_email__" data-cfemail="20494e464f604d59444f4d41494e0e434f4d">[email&#160;protected]</span></span></a></li>
-                        <li><a href="#" target="_blank" class="d-flex"><span class="mt-1 icon-globe mr-2"></span><span>https://Colorlib.com/</span></a></li>
+                        <li><a :href="'tel://'+'contactInfo.phone1'" class="d-flex"><span class="mt-1 icon-phone mr-2"></span><span>{{ contactInfo.phone1 }}</span></a></li>
+                        <li><a :href="'tel://'+'contactInfo.phone2'" class="d-flex"><span class="mt-1 icon-phone mr-2"></span><span>{{ contactInfo.phone2 }}</span></a></li>
+                        <li><a :href="'mailto:'+'contactInfo.email'" class="d-flex"><span class="mt-1 icon-envelope mr-2"></span><span><span class="__cf_email__" data-cfemail="20494e464f604d59444f4d41494e0e434f4d">{{ contactInfo.email }}</span></span></a></li>
+                        <li><a :href="[contactInfo.website]" target="_blank" class="d-flex"><span class="mt-1 icon-globe mr-2"></span><span>{{contactInfo.website}}</span></a></li>
                     </ul>
                 </div>
             </div>

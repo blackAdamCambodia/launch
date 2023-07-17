@@ -59,7 +59,7 @@ const serviceImage = {
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-5 order-lg-2 js-custom-dots">
-                    <a href="#" class="service link horizontal d-flex active" v-for="item in serviceItems" :key="item" data-aos="fade-left" :data-aos-delay="item.delay">
+                    <a href="#" class="service link horizontal d-flex active" v-for="item in serviceItems" :key="item.id" data-aos="fade-left" :data-aos-delay="item.delay">
                         <div class="service-icon color-1 mb-4" :class="` color-${item.color}`">
                              <img :src="item.icon" :alt="item.altText" :style="svgImgStyle">
                         </div>
