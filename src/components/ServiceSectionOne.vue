@@ -1,4 +1,6 @@
 <script setup>
+import dashboardImage from "../../public/images/dashboard.jpg";
+import PersonImage from "../../public/images/person.jpg";
 const serviceItems =[
   "There live the blind texts",
   "Far far away behind the word"
@@ -7,11 +9,11 @@ const serviceTitle= "Digital Services";
 const serviceHeading="Selling Digital Services";
 const serviceParagraph="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast";
 const serviceImage = {
-  src:"../../public/images/dashboard.jpg",
+  src:dashboardImage,
   alt:"Dashboard Image"
 };
 const  authorImage = {
-  src:"../../public/images/person_1.jpg",                                                                                                                                                               
+  src:PersonImage,                                                                                                                                                               
   alt:" Author Image"
 };
 const authorName = "James Anderson";
