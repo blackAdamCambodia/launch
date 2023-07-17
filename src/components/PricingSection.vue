@@ -1,4 +1,12 @@
-<script setup></script>
+<script setup>
+    // const priceList= [
+    //     {
+    //         id: 1,
+    //         price: 0,
+    //         name: 'Free'
+    //     }
+    // ]
+</script>
 <template>
     <div class="untree_co-section bg-light" id="pricing-section">
         <div class="container">

@@ -1,16 +1,34 @@
-<script setup></script>
+<script setup>
+const serviceItems =[
+  "There live the blind texts",
+  "Far far away behind the word"
+];
+const serviceTitle= "Digital Services";
+const serviceHeading="Selling Digital Services";
+const serviceParagraph="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast";
+const serviceImage = {
+  src:"../../public/images/dashboard.jpg",
+  alt:"Dashboard Image"
+};
+const  authorImage = {
+  src:"../../public/images/person_1.jpg",                                                                                                                                                               
+  alt:" Author Image"
+};
+const authorName = "James Anderson";
+const authorPosition= "Facebook, Product Lead";
+</script>
 <template>
     <div class="untree_co-section" id="features-section">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-4">
-                    <span class="caption" data-aos="fade-up" data-aos-delay="0">Digital Services</span>
-                    <h3 class="heading mb-4" data-aos="fade-up" data-aos-delay="100">Selling Digital Services</h3>
+                    <span class="caption" data-aos="fade-up" data-aos-delay="0">{{serviceTitle}}</span>
+                    <h3 class="heading mb-4" data-aos="fade-up" data-aos-delay="100">{{ serviceHeading }}</h3>
                     <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast</p>
+                        <p>{{ serviceParagraph }}</p>
                         <ul class="list-unstyled ul-check primary">
-                            <li>There live the blind texts</li>
-                            <li>Far far away behind the word</li>
+                            <li v-for="serviceItem in serviceItems" :key="serviceItem">{{ serviceItem }}</li>
+                            <!-- <li>Far far away behind the word</li> -->
                         </ul>
                     </div>
                     <div class="mb-4" data-aos="fade-up" data-aos-delay="300">
@@ -21,10 +39,10 @@
                                 </blockquote>
                                 <div class="author d-flex">
                                     <div class="pic mr-3">
-                                        <img src="../../public/images/person_1.jpg" alt="Image" class="img-fluid">
+                                        <img v-bind="authorImage" class="img-fluid">
                                     </div>
                                     <div>
-                                        <strong class="d-block">James Anderson</strong><span class="d-block">Facebook, Product Lead</span>
+                                        <strong class="d-block">{{authorName}}</strong><span class="d-block">{{ authorPosition }}</span>
                                     </div>
                                 </div>
                             </div>
@@ -38,7 +56,7 @@
                                 <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
                             </svg>
                         </span>
-                        <img src="../../public/images/dashboard.jpg" alt="Image" class="img-fluid img-shadow">
+                        <img v-bind="serviceImage" class="img-fluid img-shadow">
                     </a>
                 </div>
             </div>
