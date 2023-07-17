@@ -1,6 +1,6 @@
 <script setup>
 import dashboardImage from "../../public/images/dashboard.jpg";
-import PersonImage from "../../public/images/person.jpg";
+import PersonImage from "../../public/images/person_1.jpg";
 const serviceItems =[
   "There live the blind texts",
   "Far far away behind the word"

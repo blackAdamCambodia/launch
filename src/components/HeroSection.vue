@@ -1,5 +1,5 @@
 <script setup>
-import marketLaunchImage from "../../public/images/market-launch-pana.svg"
+import marketLaunchImage from "../../public/images/market-launch-pana.svg";
 const heroImage = {
   src:marketLaunchImage,
   alt:"Market Launch"

@@ -1,9 +1,14 @@
 <script setup>
+import imageIconOne from "../../public/images/app-indicator.svg";
+import imageIconTwo from "../../public/images/arrow-repeat.svg";
+import imageIconThree from "../../public/images/briefcase.svg";
+import imageIconFour from "../../public/images/collection.svg";
+import dashboardImage from "../../public/images/dashboard.jpg";
 const serviceItems =[
   {
     id: 1,
     color: 1,
-    icon: '../../public/images/app-indicator.svg',
+    icon: imageIconOne,
     altText: 'App Indicator',
     title: 'Grow Your Business',
     description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.',
@@ -12,7 +17,7 @@ const serviceItems =[
   {
     id: 2,
     color: 2,
-    icon: '../../public/images/arrow-repeat.svg',
+    icon: imageIconTwo,
     altText: 'Arrow Repeat',
     title: 'Build Products',
     description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.',
@@ -21,7 +26,7 @@ const serviceItems =[
   {
     id: 3,
     color: 3,
-    icon: '../../public/images/briefcase.svg',
+    icon: imageIconThree,
     altText:'Brief Case',
     title: 'Success Every Day',
     description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.',
@@ -30,7 +35,7 @@ const serviceItems =[
   {
     id: 4,
     color: 4,
-    icon: '../../public/images/collection.svg',
+    icon: imageIconFour,
     altText:'Collection',
     title: 'Bring Ideas to Life',
     description: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.',
@@ -45,7 +50,7 @@ const svgImgStyle= {
   width: "24px"
 };
 const serviceImage = {
-  src:"../../public/images/dashboard.jpg",
+  src:dashboardImage,
   alt:"Dashboard Image"
 };
 </script>
