@@ -525,9 +525,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   .untree_co-hero .dots:before {
     z-index: -1;
     right: 0;
-    -webkit-transform: translateX(60%);
+    /* -webkit-transform: translateX(60%);
     -ms-transform: translateX(60%);
-    transform: translateX(60%);
+    transform: translateX(60%); */
     position: absolute;
     content: "";
     width: 304px;

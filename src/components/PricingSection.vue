@@ -6,27 +6,38 @@
             id: 1,
             price: 0,
             priceType: 'Free',
+            features :[
+            "There live the blind texts",
+             "Far far away behind the word",
+            "Far from the countries Vokalia and Consonantia"
+            ],
             delay:100    
         },
         {
             id: 2,
             price: 19.99,
             priceType: 'Standard',
+            features :[
+                "there live the blind texts",
+                "Far far away behind the word",
+                "Far from the countries vokalia and consonantia"
+            ],
             delay:200    
         },
         {
             id: 1,
             price: 79.99,
             priceType: 'Premium',
+            features :[
+                "there live the blind texts",
+                "Far far away behind the word",
+                "Far from the countries vokalia and consonantia"
+            ],
             delay:300    
         },
         
     ];
-    const listItems=[
-                "There live the blind texts",
-                "Far far away behind the word",
-                "Far from the countries Vokalia and Consonantia"
-            ];
+   
 </script>
 <template>
     <div class="untree_co-section bg-light" id="pricing-section">
@@ -48,7 +59,7 @@
                                         <span class="price"><sup>$</sup><span>{{priceList.price}}</span></span>
                                     </div>
                                     <ul class="list-unstyled ul-check primary mb-5">
-                                        <li v-for="(listItem,index) in listItems" :key="index">{{ listItem }}</li>
+                                        <li v-for="(feature,index) in priceList.features" :key="index">{{ feature }}</li>
                                     </ul>
                                     <p class="text-center mb-0"><a href="#" class="btn btn-outline-primary">Get Started</a></p>
                                 </div>

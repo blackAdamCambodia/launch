@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-12 mb-4 mb-md-0 col-md-4" data-aos="fade-up" :data-aos-delay="delay" v-for="blogCard in blogCards" :key="blogCard.id">
+                <div class=" mb-4 mb-lg-0 col-lg-4" :class="3== blogCard.id?'col-md-12' : 'col-md-6'" data-aos="fade-up" :data-aos-delay="delay" v-for="blogCard in blogCards" :key="blogCard.id">
                     <div class="news-item">
                         <div class="vcard d-flex align-items-center mb-4">
                             <div class="img-wrap">
